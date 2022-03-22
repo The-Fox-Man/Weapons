@@ -21,6 +21,7 @@ namespace App
 
             lbl.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             lbl.Text = name;
+            pic.Tag = name;
 
             pic.SizeMode = PictureBoxSizeMode.Zoom;
             pic.Load("../../../images/" + name + ".jpg");
@@ -116,7 +117,7 @@ namespace App
         private void okey(object sender, EventArgs e)
         {
                 PictureBox y = (PictureBox)sender;
-                guns c = new guns(y.Tag);
+                guns c = new guns((string)y.Tag);
                 c.ShowDialog();
         }
         private void choiceYear_SelectedIndexChanged(object sender, EventArgs e)
