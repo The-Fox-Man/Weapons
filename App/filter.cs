@@ -23,6 +23,8 @@ namespace App
             lbl.Text = name;
             pic.Tag = name;
 
+            //lbl.ForeColor = ForeColor("Control");
+
             pic.SizeMode = PictureBoxSizeMode.Zoom;
             pic.Load("../../../images/" + name + ".jpg");
         }

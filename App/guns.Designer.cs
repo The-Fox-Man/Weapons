@@ -28,28 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pic = new System.Windows.Forms.PictureBox();
             this.txt = new System.Windows.Forms.RichTextBox();
             this.txt1 = new System.Windows.Forms.TextBox();
+            this.pic = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
             this.SuspendLayout();
             // 
-            // pic
-            // 
-            this.pic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pic.Image = global::App.Properties.Resources.ak47;
-            this.pic.Location = new System.Drawing.Point(372, 149);
-            this.pic.Name = "pic";
-            this.pic.Size = new System.Drawing.Size(260, 184);
-            this.pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pic.TabIndex = 1;
-            this.pic.TabStop = false;
-            this.pic.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // txt
             // 
+            this.txt.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.txt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt.ForeColor = System.Drawing.SystemColors.Menu;
             this.txt.Location = new System.Drawing.Point(254, 392);
             this.txt.Name = "txt";
             this.txt.ReadOnly = true;
@@ -60,8 +50,10 @@
             // 
             // txt1
             // 
+            this.txt1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.txt1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt1.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txt1.ForeColor = System.Drawing.SystemColors.Menu;
             this.txt1.Location = new System.Drawing.Point(219, 339);
             this.txt1.Name = "txt1";
             this.txt1.ReadOnly = true;
@@ -70,10 +62,25 @@
             this.txt1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt1.TextChanged += new System.EventHandler(this.txt1_TextChanged);
             // 
+            // pic
+            // 
+            this.pic.BackColor = System.Drawing.Color.Transparent;
+            this.pic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pic.Image = global::App.Properties.Resources.ak47;
+            this.pic.Location = new System.Drawing.Point(372, 149);
+            this.pic.Name = "pic";
+            this.pic.Size = new System.Drawing.Size(260, 184);
+            this.pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pic.TabIndex = 1;
+            this.pic.TabStop = false;
+            this.pic.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // guns
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::App.Properties.Resources.bg;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 711);
             this.Controls.Add(this.txt1);
             this.Controls.Add(this.txt);
