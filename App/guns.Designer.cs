@@ -31,15 +31,16 @@
             this.txt = new System.Windows.Forms.RichTextBox();
             this.txt1 = new System.Windows.Forms.TextBox();
             this.pic = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
             this.SuspendLayout();
             // 
             // txt
             // 
-            this.txt.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txt.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt.ForeColor = System.Drawing.SystemColors.Menu;
+            this.txt.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txt.Location = new System.Drawing.Point(254, 392);
             this.txt.Name = "txt";
             this.txt.ReadOnly = true;
@@ -50,10 +51,10 @@
             // 
             // txt1
             // 
-            this.txt1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txt1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txt1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt1.Font = new System.Drawing.Font("Segoe Script", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txt1.ForeColor = System.Drawing.SystemColors.Menu;
+            this.txt1.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txt1.Location = new System.Drawing.Point(219, 339);
             this.txt1.Name = "txt1";
             this.txt1.ReadOnly = true;
@@ -75,6 +76,16 @@
             this.pic.TabStop = false;
             this.pic.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(864, 26);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "favourite";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // guns
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -82,6 +93,7 @@
             this.BackgroundImage = global::App.Properties.Resources.bg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 711);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txt1);
             this.Controls.Add(this.txt);
             this.Controls.Add(this.pic);
@@ -98,5 +110,6 @@
         private System.Windows.Forms.PictureBox pic;
         private System.Windows.Forms.RichTextBox txt;
         private System.Windows.Forms.TextBox txt1;
+        private System.Windows.Forms.Button button1;
     }
 }

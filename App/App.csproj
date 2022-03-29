@@ -53,6 +53,12 @@
     <Compile Include="AppCode.Designer.cs">
       <DependentUpon>AppCode.cs</DependentUpon>
     </Compile>
+    <Compile Include="Favourite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Favourite.Designer.cs">
+      <DependentUpon>Favourite.cs</DependentUpon>
+    </Compile>
     <Compile Include="filter.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     </Compile>
     <EmbeddedResource Include="AppCode.resx">
       <DependentUpon>AppCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Favourite.resx">
+      <DependentUpon>Favourite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="filter.resx">
       <DependentUpon>filter.cs</DependentUpon>

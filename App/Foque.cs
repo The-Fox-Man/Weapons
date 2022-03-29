@@ -19,11 +19,12 @@ namespace App
         {
             InitializeComponent();
         }
+        //сделааааааааааааааааааать массив, который сделает рабочей данную страницу!!!
         private void pic_Click(object sender, EventArgs e)
         {
            
-              guns c = new guns("ak47");
-              c.ShowDialog();
+         //     guns c = new guns("ak47");
+       //       c.ShowDialog();
         }
         private void button4_Click(object sender, EventArgs e)
         {
@@ -32,38 +33,38 @@ namespace App
         }
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            guns c = new guns("M-16");
-            c.ShowDialog();
+     //       guns c = new guns("M-16");
+      //      c.ShowDialog();
         }
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            guns c = new guns("HK416");
-            c.ShowDialog();
+       //     guns c = new guns("HK416");
+     //       c.ShowDialog();
         }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            guns c = new guns("scar");
-            c.ShowDialog();
+        //   guns c = new guns("scar");
+         //   c.ShowDialog();
         }
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            guns c = new guns("FAMAS");
-            c.ShowDialog();
+         //   guns c = new guns("FAMAS");
+         //   c.ShowDialog();
         }
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            guns c = new guns("Zastava");
-            c.ShowDialog();
+         //   guns c = new guns("Zastava");
+          //  c.ShowDialog();
         }
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            guns c = new guns("INSAS");
-            c.ShowDialog();
+        //    guns c = new guns("INSAS");
+          //  c.ShowDialog();
         }
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            guns c = new guns("ads");
-            c.ShowDialog();
+         //   guns c = new guns("ads");
+          //  c.ShowDialog();
         }
 
     }

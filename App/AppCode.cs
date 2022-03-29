@@ -20,6 +20,7 @@ namespace App
      */
     public partial class AppCode : Form
     {
+    
         public AppCode(int a)
         {
             InitializeComponent();
@@ -59,6 +60,12 @@ namespace App
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Favourite hi = new Favourite();
+            hi.ShowDialog();
         }
     }
        /* private void button3_Click(object sender, EventArgs e)

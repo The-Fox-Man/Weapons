@@ -32,7 +32,7 @@ namespace App
 
     public partial class filter : Form
     {
-
+      
         Guns[] gun_list = new Guns[8];
         public filter()
         {
@@ -118,9 +118,18 @@ namespace App
         }
         private void okey(object sender, EventArgs e)
         {
-                PictureBox y = (PictureBox)sender;
-                guns c = new guns((string)y.Tag);
-                c.ShowDialog();
+            /* PictureBox y = (PictureBox)sender;
+             guns c = new guns((string)y.Tag);
+             c.ShowDialog();
+            */
+            for (int i = 0; i < gun_list.Length; i++)
+            {
+                if (((PictureBox)sender).Tag == gun_list[i].name)
+                {
+                    guns gun = new guns(gun_list[i]);
+                    gun.ShowDialog();
+                }
+            }
         }
         private void choiceYear_SelectedIndexChanged(object sender, EventArgs e)
         {
