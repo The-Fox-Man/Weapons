@@ -13,7 +13,8 @@ namespace App
 {
     public partial class Foque : Form
     {
-
+        //public static Guns[] gun_list = new Guns[8];
+        //public static List<Guns> gun_list = new List<Guns>();
         int a = 0;
         public Foque()
         {
@@ -22,9 +23,8 @@ namespace App
         //сделааааааааааааааааааать массив, который сделает рабочей данную страницу!!!
         private void pic_Click(object sender, EventArgs e)
         {
-           
-         //     guns c = new guns("ak47");
-       //       c.ShowDialog();
+
+            filter.okey(sender, e);
         }
         private void button4_Click(object sender, EventArgs e)
         {

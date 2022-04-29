@@ -53,3 +53,19 @@ d:\ПРОГРАММЫ  C++ и C#\Catalog(git)\App\obj\Debug\App.csproj.GenerateR
 d:\ПРОГРАММЫ  C++ и C#\Catalog(git)\App\obj\Debug\App.csproj.CoreCompileInputs.cache
 d:\ПРОГРАММЫ  C++ и C#\Catalog(git)\App\obj\Debug\App.exe
 d:\ПРОГРАММЫ  C++ и C#\Catalog(git)\App\obj\Debug\App.pdb
+C:\Users\user\Desktop\Weapons-main\App\bin\Debug\App.exe.config
+C:\Users\user\Desktop\Weapons-main\App\bin\Debug\App.exe
+C:\Users\user\Desktop\Weapons-main\App\bin\Debug\App.pdb
+C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.AppCode.resources
+C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.Favourite.resources
+C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.filter.resources
+C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.Foque.resources
+C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.Properties.Resources.resources
+C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.guns.resources
+C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.exe
+C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.pdb
+C:\Users\user\Desktop\Catalog\App\obj\Debug\App.Favourite.resources

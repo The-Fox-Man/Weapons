@@ -43,7 +43,13 @@ namespace App
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Favourite.selectedGuns.Add(gun);
+            // Favourite.selectedGuns.Add(gun);
+            if (Favourite.selectedGuns.ContainsKey(gun))
+            {
+                Favourite.selectedGuns[gun]++;
+            }
+            else
+                Favourite.selectedGuns.Add(gun, 1);
         }
     }
 }
