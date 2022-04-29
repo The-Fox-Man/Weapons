@@ -38,22 +38,22 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pic = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
+            this.ads = new System.Windows.Forms.PictureBox();
+            this.INSAS = new System.Windows.Forms.PictureBox();
+            this.Zastava = new System.Windows.Forms.PictureBox();
+            this.FAMAS = new System.Windows.Forms.PictureBox();
+            this.scar = new System.Windows.Forms.PictureBox();
+            this.HK416 = new System.Windows.Forms.PictureBox();
+            this.M16 = new System.Windows.Forms.PictureBox();
+            this.ak47 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.ads)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.INSAS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Zastava)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FAMAS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HK416)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.M16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ak47)).BeginInit();
             this.SuspendLayout();
             // 
             // button4
@@ -163,112 +163,112 @@
             this.label8.TabIndex = 15;
             this.label8.Text = "ADS";
             // 
-            // pictureBox7
+            // ads
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.Image = global::App.Properties.Resources.ads;
-            this.pictureBox7.Location = new System.Drawing.Point(315, 452);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(310, 165);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 16;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Tag = "ads";
-            this.pictureBox7.Click += new System.EventHandler(this.pic_Click);
+            this.ads.BackColor = System.Drawing.Color.Transparent;
+            this.ads.Image = global::App.Properties.Resources.ads;
+            this.ads.Location = new System.Drawing.Point(315, 452);
+            this.ads.Name = "ads";
+            this.ads.Size = new System.Drawing.Size(310, 165);
+            this.ads.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ads.TabIndex = 16;
+            this.ads.TabStop = false;
+            this.ads.Tag = "ads";
+            this.ads.Click += new System.EventHandler(this.pic_Click);
             // 
-            // pictureBox6
+            // INSAS
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.Image = global::App.Properties.Resources.INSAS;
-            this.pictureBox6.Location = new System.Drawing.Point(-1, 452);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(310, 165);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 16;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Tag = "INSAS";
-            this.pictureBox6.Click += new System.EventHandler(this.pic_Click);
+            this.INSAS.BackColor = System.Drawing.Color.Transparent;
+            this.INSAS.Image = global::App.Properties.Resources.INSAS;
+            this.INSAS.Location = new System.Drawing.Point(-1, 452);
+            this.INSAS.Name = "INSAS";
+            this.INSAS.Size = new System.Drawing.Size(310, 165);
+            this.INSAS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.INSAS.TabIndex = 16;
+            this.INSAS.TabStop = false;
+            this.INSAS.Tag = "INSAS";
+            this.INSAS.Click += new System.EventHandler(this.pic_Click);
             // 
-            // pictureBox5
+            // Zastava
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = global::App.Properties.Resources.Zastava;
-            this.pictureBox5.Location = new System.Drawing.Point(631, 226);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(288, 181);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 14;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Tag = "Zastava";
-            this.pictureBox5.Click += new System.EventHandler(this.pic_Click);
+            this.Zastava.BackColor = System.Drawing.Color.Transparent;
+            this.Zastava.Image = global::App.Properties.Resources.Zastava;
+            this.Zastava.Location = new System.Drawing.Point(631, 226);
+            this.Zastava.Name = "Zastava";
+            this.Zastava.Size = new System.Drawing.Size(288, 181);
+            this.Zastava.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Zastava.TabIndex = 14;
+            this.Zastava.TabStop = false;
+            this.Zastava.Tag = "Zastava";
+            this.Zastava.Click += new System.EventHandler(this.pic_Click);
             // 
-            // pictureBox4
+            // FAMAS
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::App.Properties.Resources.FAMAS;
-            this.pictureBox4.Location = new System.Drawing.Point(315, 226);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(310, 181);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 13;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Tag = "FAMAS";
-            this.pictureBox4.Click += new System.EventHandler(this.pic_Click);
+            this.FAMAS.BackColor = System.Drawing.Color.Transparent;
+            this.FAMAS.Image = global::App.Properties.Resources.FAMAS;
+            this.FAMAS.Location = new System.Drawing.Point(315, 226);
+            this.FAMAS.Name = "FAMAS";
+            this.FAMAS.Size = new System.Drawing.Size(310, 181);
+            this.FAMAS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.FAMAS.TabIndex = 13;
+            this.FAMAS.TabStop = false;
+            this.FAMAS.Tag = "FAMAS";
+            this.FAMAS.Click += new System.EventHandler(this.pic_Click);
             // 
-            // pictureBox2
+            // scar
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::App.Properties.Resources.scar1;
-            this.pictureBox2.Location = new System.Drawing.Point(-1, 226);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(310, 181);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Tag = "scar";
-            this.pictureBox2.Click += new System.EventHandler(this.pic_Click);
+            this.scar.BackColor = System.Drawing.Color.Transparent;
+            this.scar.Image = global::App.Properties.Resources.scar1;
+            this.scar.Location = new System.Drawing.Point(-1, 226);
+            this.scar.Name = "scar";
+            this.scar.Size = new System.Drawing.Size(310, 181);
+            this.scar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.scar.TabIndex = 12;
+            this.scar.TabStop = false;
+            this.scar.Tag = "scar";
+            this.scar.Click += new System.EventHandler(this.pic_Click);
             // 
-            // pictureBox1
+            // HK416
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Image = global::App.Properties.Resources.HK416;
-            this.pictureBox1.Location = new System.Drawing.Point(631, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(288, 181);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Tag = "HK416";
-            this.pictureBox1.Click += new System.EventHandler(this.pic_Click);
+            this.HK416.BackColor = System.Drawing.Color.Transparent;
+            this.HK416.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.HK416.Image = global::App.Properties.Resources.HK416;
+            this.HK416.Location = new System.Drawing.Point(631, 0);
+            this.HK416.Name = "HK416";
+            this.HK416.Size = new System.Drawing.Size(288, 181);
+            this.HK416.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.HK416.TabIndex = 11;
+            this.HK416.TabStop = false;
+            this.HK416.Tag = "HK416";
+            this.HK416.Click += new System.EventHandler(this.pic_Click);
             // 
-            // pictureBox3
+            // M16
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Image = global::App.Properties.Resources.M_16;
-            this.pictureBox3.Location = new System.Drawing.Point(315, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(310, 181);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Tag = "M-16";
-            this.pictureBox3.Click += new System.EventHandler(this.pic_Click);
+            this.M16.BackColor = System.Drawing.Color.Transparent;
+            this.M16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.M16.Image = global::App.Properties.Resources.M16;
+            this.M16.Location = new System.Drawing.Point(315, 0);
+            this.M16.Name = "M16";
+            this.M16.Size = new System.Drawing.Size(310, 181);
+            this.M16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.M16.TabIndex = 10;
+            this.M16.TabStop = false;
+            this.M16.Tag = "M16";
+            this.M16.Click += new System.EventHandler(this.pic_Click);
             // 
-            // pic
+            // ak47
             // 
-            this.pic.BackColor = System.Drawing.Color.Transparent;
-            this.pic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pic.Image = ((System.Drawing.Image)(resources.GetObject("pic.Image")));
-            this.pic.Location = new System.Drawing.Point(-1, 0);
-            this.pic.Name = "pic";
-            this.pic.Size = new System.Drawing.Size(310, 181);
-            this.pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pic.TabIndex = 2;
-            this.pic.TabStop = false;
-            this.pic.Tag = "ak47";
-            this.pic.Click += new System.EventHandler(this.pic_Click);
+            this.ak47.BackColor = System.Drawing.Color.Transparent;
+            this.ak47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ak47.Image = ((System.Drawing.Image)(resources.GetObject("ak47.Image")));
+            this.ak47.Location = new System.Drawing.Point(-1, 0);
+            this.ak47.Name = "ak47";
+            this.ak47.Size = new System.Drawing.Size(310, 181);
+            this.ak47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ak47.TabIndex = 2;
+            this.ak47.TabStop = false;
+            this.ak47.Tag = "ak47";
+            this.ak47.Click += new System.EventHandler(this.pic_Click);
             // 
             // Foque
             // 
@@ -278,8 +278,8 @@
             this.BackgroundImage = global::App.Properties.Resources.bg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 711);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.ads);
+            this.Controls.Add(this.INSAS);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label8);
@@ -288,24 +288,24 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.Zastava);
+            this.Controls.Add(this.FAMAS);
+            this.Controls.Add(this.scar);
+            this.Controls.Add(this.HK416);
+            this.Controls.Add(this.M16);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.pic);
+            this.Controls.Add(this.ak47);
             this.Name = "Foque";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Guns List";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ads)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.INSAS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Zastava)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FAMAS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HK416)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.M16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ak47)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -313,22 +313,22 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pic;
+        private System.Windows.Forms.PictureBox ak47;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox M16;
+        private System.Windows.Forms.PictureBox HK416;
+        private System.Windows.Forms.PictureBox scar;
+        private System.Windows.Forms.PictureBox FAMAS;
+        private System.Windows.Forms.PictureBox Zastava;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox INSAS;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox ads;
         private System.Windows.Forms.Label label8;
     }
 }

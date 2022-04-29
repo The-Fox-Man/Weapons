@@ -119,7 +119,7 @@ namespace App
             */
             for (int i = 0; i < gun_list.Count; i++)
             {
-                if (((PictureBox)sender).Image == gun_list[i].pic.Image)
+                if (((PictureBox)sender).Name == gun_list[i].name || ((PictureBox)sender).Tag == gun_list[i].name)
                 {
                     guns gun = new guns(gun_list[i]);
                     gun.ShowDialog();
