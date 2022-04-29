@@ -39,13 +39,16 @@ namespace App
       
        // public static Guns[] gun_list = new Guns[8];
         public static List<Guns> gun_list = new List<Guns>();
+        
         public filter()
         {
             InitializeComponent();
+            pan.Controls.Clear();
             int x = 0;
             int y = 30;
             for (int i = 0; i < gun_list.Count; i++)
-            {   
+            {
+               
                 gun_list[i].lbl.Location = new Point(x + 100, y);
                 gun_list[i].lbl.Size = new Size(130, 39);
                 pan.Controls.Add(gun_list[i].lbl);
@@ -100,8 +103,8 @@ namespace App
                 }
                 if (gun_list[i].lbl.Visible)
                 {
-                    gun_list[i].lbl.Location = new System.Drawing.Point(x + 100, y);
-                    gun_list[i].pic.Location = new System.Drawing.Point(x, y + 50);
+                    gun_list[i].lbl.Location = new Point(x + 100, y);
+                    gun_list[i].pic.Location = new Point(x, y + 50);
                     x = x + 310;
                     if (x + 150 > Width)
                     {

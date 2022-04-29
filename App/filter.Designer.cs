@@ -192,6 +192,7 @@
             // 
             // pan
             // 
+            this.pan.AutoScroll = true;
             this.pan.BackColor = System.Drawing.Color.Transparent;
             this.pan.Location = new System.Drawing.Point(-1, -1);
             this.pan.Name = "pan";
