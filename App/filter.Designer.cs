@@ -94,7 +94,9 @@
             // 
             // filtr
             // 
-            this.filtr.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.filtr.BackgroundImage = global::App.Properties.Resources.bg;
+            this.filtr.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold);
+            this.filtr.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.filtr.Location = new System.Drawing.Point(819, 556);
             this.filtr.Name = "filtr";
             this.filtr.Size = new System.Drawing.Size(121, 52);
@@ -130,8 +132,9 @@
             this.choiceCal.FormattingEnabled = true;
             this.choiceCal.Items.AddRange(new object[] {
             "nothing",
-            "7",
-            "5"});
+            "7.62",
+            "5.56",
+            "5.45"});
             this.choiceCal.Location = new System.Drawing.Point(819, 459);
             this.choiceCal.Name = "choiceCal";
             this.choiceCal.Size = new System.Drawing.Size(121, 21);
@@ -166,11 +169,13 @@
             // 
             this.choiceYear.Items.AddRange(new object[] {
             "nothing",
-            "1987",
-            "2004",
-            "2007",
+            "1962",
             "1966",
-            "1990"});
+            "1987",
+            "1990",
+            "2004",
+            "2005",
+            "2007"});
             this.choiceYear.Location = new System.Drawing.Point(819, 529);
             this.choiceYear.Name = "choiceYear";
             this.choiceYear.Size = new System.Drawing.Size(121, 21);
@@ -204,7 +209,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::App.Properties.Resources.bg;
+            this.BackgroundImage = global::App.Properties.Resources.bground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 711);
             this.Controls.Add(this.pan);

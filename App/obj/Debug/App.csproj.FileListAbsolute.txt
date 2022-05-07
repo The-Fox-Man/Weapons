@@ -69,3 +69,20 @@ C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.csproj.CoreCompileInputs.ca
 C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.exe
 C:\Users\user\Desktop\Weapons-main\App\obj\Debug\App.pdb
 C:\Users\user\Desktop\Catalog\App\obj\Debug\App.Favourite.resources
+C:\Users\user\Desktop\Catalog\App\obj\Debug\App.Add.resources
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\bin\Debug\App.exe.config
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\bin\Debug\App.exe
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\bin\Debug\App.pdb
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.csproj.AssemblyReference.cache
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.Add.resources
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.AppCode.resources
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.Favourite.resources
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.filter.resources
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.Foque.resources
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.Properties.Resources.resources
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.guns.resources
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.csproj.GenerateResource.cache
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.exe
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.pdb
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.pistols.resources

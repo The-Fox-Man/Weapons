@@ -40,7 +40,7 @@
             this.txt.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.txt.ForeColor = System.Drawing.SystemColors.Desktop;
             this.txt.Location = new System.Drawing.Point(254, 392);
             this.txt.Name = "txt";
             this.txt.ReadOnly = true;
@@ -78,11 +78,14 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(864, 26);
+            this.button1.BackgroundImage = global::App.Properties.Resources.bg;
+            this.button1.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button1.Location = new System.Drawing.Point(864, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(108, 49);
             this.button1.TabIndex = 5;
-            this.button1.Text = "favourite";
+            this.button1.Text = "Favourite";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -90,7 +93,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::App.Properties.Resources.bg;
+            this.BackgroundImage = global::App.Properties.Resources.bground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 711);
             this.Controls.Add(this.button1);

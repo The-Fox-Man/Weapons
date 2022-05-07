@@ -44,6 +44,7 @@ namespace App
                 PictureBox lilpip = new PictureBox();
                 lilpip.Location = new Point(x, y + 50);
                 lilpip.Size = new Size(310, 165);
+                lilpip.BackColor = Color.Transparent;
                 lilpip.SizeMode = PictureBoxSizeMode.Zoom;
                 lilpip.Image = gun.pic.Image;
                 Controls.Add(lilpip);
@@ -97,8 +98,10 @@ namespace App
                 Button jojo = new Button();
                 jojo.Location = new Point(x + 800, y);
                 jojo.Size = new Size(110, 50);
+                jojo.ForeColor = Color.White;
                 jojo.Font = new Font("Comic Sans MS", 15, FontStyle.Bold);
                 jojo.Text = "Удалить";
+                jojo.BackgroundImage = new Bitmap("../../../images/bg.jpg");
                 jojo.Click += new EventHandler(del);
                 Controls.Add(jojo);
 
@@ -168,8 +171,8 @@ namespace App
                             {
                             if (ctr is Label && ctr.Location == new Point(500, 230 * i + 180 + AutoScrollPosition.Y))
                                 {
-                                    ctr.Text = "Кол:" + na.Text;
-                                    //pris = Convert.ToInt32(ctr.Text.Replace("Количество:", ""));
+                                    ctr.Text = "Количество:" + na.Text;
+                                    //pris = Convert.ToInt32(ctr.Text.Replace("", ""));
                                 }
 
                             }

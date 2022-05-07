@@ -8,13 +8,14 @@ namespace App
     public struct Guns
     {
         public string name;
-        public double cal;
+        public string cal;
         public string year;
         public Label lbl;
         public PictureBox pic;
         public string kind;
 
-        public Guns(string _name, double _cal, string _year, string _kind)
+        //public string web;
+        public Guns(string _name, string _cal, string _year, string _kind)//, string _web
         {
             name = _name;
             cal = _cal;
@@ -22,6 +23,7 @@ namespace App
             lbl = new Label();
             pic = new PictureBox();
             kind = _kind;
+            //web = _web;
 
             lbl.Font = new Font("Calibri", 24F, FontStyle.Bold, GraphicsUnit.Point, ((byte)(204)));
             lbl.Text = name;
@@ -91,7 +93,7 @@ namespace App
                      gun_list[i].lbl.Visible = false; 
                      gun_list[i].pic.Visible = false;
                 }
-                if (choiceCal.Text != "" && choiceCal.Text != "nothing" && gun_list[i].cal != Convert.ToInt32(choiceCal.Text))
+                if (choiceCal.Text != "" && choiceCal.Text != "nothing" && gun_list[i].cal != (choiceCal.Text))
                 {
                     gun_list[i].lbl.Visible = false;
                     gun_list[i].pic.Visible = false;

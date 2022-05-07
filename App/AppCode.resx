@@ -120,7 +120,10 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Здравствуйте, в дтой прекраснейшиой программе вы сможете найти себе дев... автомат. Да. По очень выгодной цене, с быстрой доставкой и хорошим продавцом. При выборе вы можете увидеть все характерстики автомата.</value>
   </data>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Здравствуйте, в этой прекраснейшиой программе вы сможете найти себе автомат. Да. По очень выгодной цене, с быстрой доставкой и хорошим продавцом. При выборе вы можете увидеть все характерстики автомата.</value>
-  </data>
+  <metadata name="menu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>62, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
 </root>
