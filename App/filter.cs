@@ -13,9 +13,10 @@ namespace App
         public Label lbl;
         public PictureBox pic;
         public string kind;
+        public int price;
 
         //public string web;
-        public Guns(string _name, string _cal, string _year, string _kind)//, string _web
+        public Guns(string _name, string _cal, string _year, string _kind, int _price)//, string _web
         {
             name = _name;
             cal = _cal;
@@ -23,6 +24,7 @@ namespace App
             lbl = new Label();
             pic = new PictureBox();
             kind = _kind;
+            price = _price;
             //web = _web;
 
             lbl.Font = new Font("Calibri", 24F, FontStyle.Bold, GraphicsUnit.Point, ((byte)(204)));
@@ -51,8 +53,8 @@ namespace App
             for (int i = 0; i < gun_list.Count; i++)
             {
                
-                gun_list[i].lbl.Location = new Point(x + 100, y);
-                gun_list[i].lbl.Size = new Size(130, 39);
+                gun_list[i].lbl.Location = new Point(x + 20, y);
+                gun_list[i].lbl.Size = new Size(300, 39);
                 pan.Controls.Add(gun_list[i].lbl);
 
                 gun_list[i].pic.Location = new Point(x, y + 50); 
@@ -88,7 +90,8 @@ namespace App
 
                 gun_list[i].lbl.Visible = true;
                 gun_list[i].pic.Visible = true;
-                if (choice.Text != "" && choice.Text != "nothing" && gun_list[i].name != choice.Text)
+                if (choice.Text != "" && choice.Text != "nothing"
+                    && gun_list[i].price != Convert.ToInt32(choice.Text))
                 {
                      gun_list[i].lbl.Visible = false; 
                      gun_list[i].pic.Visible = false;
@@ -137,6 +140,11 @@ namespace App
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void choice_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

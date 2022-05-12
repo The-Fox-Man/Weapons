@@ -35,14 +35,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.var = new System.Windows.Forms.ComboBox();
+            this.prsvar = new System.Windows.Forms.ComboBox();
             this.img = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pi = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.calibr = new System.Windows.Forms.ComboBox();
             this.describe = new System.Windows.Forms.RichTextBox();
             this.label5 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.label6 = new System.Windows.Forms.Label();
+            this.var = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pi)).BeginInit();
             this.SuspendLayout();
             // 
             // save
@@ -120,16 +122,23 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Тип:";
             // 
-            // var
+            // prsvar
             // 
-            this.var.FormattingEnabled = true;
-            this.var.Items.AddRange(new object[] {
-            "Автомат",
-            "Пистолет"});
-            this.var.Location = new System.Drawing.Point(111, 142);
-            this.var.Name = "var";
-            this.var.Size = new System.Drawing.Size(98, 21);
-            this.var.TabIndex = 6;
+            this.prsvar.FormattingEnabled = true;
+            this.prsvar.Items.AddRange(new object[] {
+            "10000",
+            "20000",
+            "30000",
+            "40000",
+            "50000",
+            "60000",
+            "70000",
+            "80000"});
+            this.prsvar.Location = new System.Drawing.Point(110, 182);
+            this.prsvar.Name = "prsvar";
+            this.prsvar.Size = new System.Drawing.Size(98, 21);
+            this.prsvar.TabIndex = 6;
+            this.prsvar.SelectedIndexChanged += new System.EventHandler(this.prsvar_SelectedIndexChanged);
             // 
             // img
             // 
@@ -144,16 +153,16 @@
             this.img.UseVisualStyleBackColor = true;
             this.img.Click += new System.EventHandler(this.img_Click);
             // 
-            // pictureBox1
+            // pi
             // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(232, 78);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(165, 93);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
+            this.pi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pi.InitialImage = null;
+            this.pi.Location = new System.Drawing.Point(232, 78);
+            this.pi.Name = "pi";
+            this.pi.Size = new System.Drawing.Size(165, 93);
+            this.pi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pi.TabIndex = 8;
+            this.pi.TabStop = false;
             // 
             // openFileDialog1
             // 
@@ -173,7 +182,7 @@
             // 
             // describe
             // 
-            this.describe.Location = new System.Drawing.Point(111, 193);
+            this.describe.Location = new System.Drawing.Point(111, 224);
             this.describe.Name = "describe";
             this.describe.Size = new System.Drawing.Size(286, 96);
             this.describe.TabIndex = 10;
@@ -186,12 +195,37 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(18, 224);
+            this.label5.Location = new System.Drawing.Point(18, 255);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label5.Size = new System.Drawing.Size(78, 17);
             this.label5.TabIndex = 5;
             this.label5.Text = "Описание:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label6.Location = new System.Drawing.Point(15, 183);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(47, 17);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Цена:";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // var
+            // 
+            this.var.FormattingEnabled = true;
+            this.var.Items.AddRange(new object[] {
+            "Автомат",
+            "Пистолет"});
+            this.var.Location = new System.Drawing.Point(110, 143);
+            this.var.Name = "var";
+            this.var.Size = new System.Drawing.Size(98, 21);
+            this.var.TabIndex = 6;
             // 
             // Add
             // 
@@ -202,10 +236,12 @@
             this.ClientSize = new System.Drawing.Size(431, 450);
             this.Controls.Add(this.describe);
             this.Controls.Add(this.calibr);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pi);
             this.Controls.Add(this.img);
             this.Controls.Add(this.var);
+            this.Controls.Add(this.prsvar);
             this.Controls.Add(this.label5);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -216,7 +252,7 @@
             this.Name = "Add";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -231,12 +267,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox var;
+        private System.Windows.Forms.ComboBox prsvar;
         private System.Windows.Forms.Button img;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pi;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.ComboBox calibr;
         private System.Windows.Forms.RichTextBox describe;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox var;
     }
 }

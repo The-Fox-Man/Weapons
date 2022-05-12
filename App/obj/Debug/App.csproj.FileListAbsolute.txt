@@ -86,3 +86,6 @@ d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.csproj.CoreCompileInp
 d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.exe
 d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.pdb
 d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.pistols.resources
+C:\Users\user\Desktop\Catalog\App\obj\Debug\App.mail.resources
+C:\Users\user\Desktop\Catalog\App\obj\Debug\App.pistols.resources
+d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.mail.resources

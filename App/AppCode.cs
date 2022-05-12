@@ -82,7 +82,7 @@ namespace App
             foreach (string stroke in line)
             {
                 string[] quarter = stroke.Split(new string[] {", "}, StringSplitOptions.None);
-                Guns gune = new Guns(quarter[0], (quarter[1]), quarter[2], quarter[3]);//quarter[4]);
+                Guns gune = new Guns(quarter[0], (quarter[1]), quarter[2], quarter[3], Convert.ToInt32(quarter[4]));//quarter[4]);
                 filter.gun_list.Add(gune);
                 Foque.gun_list.Add(gune);
                 pistols.gun_list.Add(gune);
@@ -118,6 +118,12 @@ namespace App
         private void button7_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void but_Click(object sender, EventArgs e)
+        {
+            mail susss = new mail();
+            susss.ShowDialog();
         }
 
 

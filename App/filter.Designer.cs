@@ -114,14 +114,18 @@
             this.choice.FormattingEnabled = true;
             this.choice.Items.AddRange(new object[] {
             "nothing",
-            "INSAS",
-            "ads",
-            "Застава"});
+            "10000",
+            "20000",
+            "30000",
+            "40000",
+            "50000",
+            "70000"});
             this.choice.Location = new System.Drawing.Point(819, 495);
             this.choice.Name = "choice";
             this.choice.Size = new System.Drawing.Size(121, 21);
             this.choice.TabIndex = 24;
             this.choice.Text = "nothing";
+            this.choice.SelectedIndexChanged += new System.EventHandler(this.choice_SelectedIndexChanged);
             // 
             // choiceCal
             // 
@@ -159,11 +163,11 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(745, 495);
+            this.label2.Location = new System.Drawing.Point(770, 495);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 18);
+            this.label2.Size = new System.Drawing.Size(45, 18);
             this.label2.TabIndex = 26;
-            this.label2.Text = "Название:";
+            this.label2.Text = "Цена:";
             // 
             // choiceYear
             // 

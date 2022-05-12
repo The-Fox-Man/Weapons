@@ -29,7 +29,19 @@ namespace App
         /// </summary>
         private void InitializeComponent()
         {
+            this.lal = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // lal
+            // 
+            this.lal.AutoSize = true;
+            this.lal.BackColor = System.Drawing.Color.Transparent;
+            this.lal.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lal.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.lal.Location = new System.Drawing.Point(41, 5);
+            this.lal.Name = "lal";
+            this.lal.Size = new System.Drawing.Size(0, 29);
+            this.lal.TabIndex = 0;
             // 
             // Favourite
             // 
@@ -39,14 +51,18 @@ namespace App
             this.BackgroundImage = global::App.Properties.Resources.bground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 711);
+            this.Controls.Add(this.lal);
             this.Name = "Favourite";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Favourite";
             this.Load += new System.EventHandler(this.Favourite_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lal;
     }
 }

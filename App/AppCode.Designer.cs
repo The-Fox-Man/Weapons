@@ -42,6 +42,7 @@
             this.новоеОружиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.button7 = new System.Windows.Forms.Button();
+            this.but = new System.Windows.Forms.Button();
             this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -190,6 +191,16 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
+            // but
+            // 
+            this.but.Location = new System.Drawing.Point(833, 219);
+            this.but.Name = "but";
+            this.but.Size = new System.Drawing.Size(75, 23);
+            this.but.TabIndex = 12;
+            this.but.Text = "but";
+            this.but.UseVisualStyleBackColor = true;
+            this.but.Click += new System.EventHandler(this.but_Click);
+            // 
             // AppCode
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -198,6 +209,7 @@
             this.BackgroundImage = global::App.Properties.Resources.bground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 711);
+            this.Controls.Add(this.but);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.richTextBox1);
@@ -231,6 +243,7 @@
         private System.Windows.Forms.ToolStripMenuItem новоеОружиеToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip menu;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button but;
     }
 }
 
