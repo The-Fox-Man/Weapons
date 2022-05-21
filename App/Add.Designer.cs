@@ -251,7 +251,7 @@
             this.Controls.Add(this.save);
             this.Name = "Add";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Add";
+            this.Text = "Добавить оружие";
             ((System.ComponentModel.ISupportInitialize)(this.pi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -89,3 +89,11 @@ d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.pistols.resources
 C:\Users\user\Desktop\Catalog\App\obj\Debug\App.mail.resources
 C:\Users\user\Desktop\Catalog\App\obj\Debug\App.pistols.resources
 d:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.mail.resources
+C:\Users\user\Desktop\Catalog\App\obj\Debug\App.contact_ass.resources
+C:\Users\user\Desktop\Catalog\App\obj\Debug\App.login1.resources
+C:\Users\user\Desktop\Catalog\App\obj\Debug\App.delete.resources
+D:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.contact_ass.resources
+D:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.delete.resources
+D:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.login1.resources
+D:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.registr.resources
+D:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.help.resources

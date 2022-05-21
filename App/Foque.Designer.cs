@@ -52,7 +52,7 @@
             this.Controls.Add(this.button4);
             this.Name = "Foque";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Guns List";
+            this.Text = "Автоматы";
             this.ResumeLayout(false);
 
         }

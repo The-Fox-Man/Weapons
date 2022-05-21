@@ -59,6 +59,18 @@
     <Compile Include="AppCode.Designer.cs">
       <DependentUpon>AppCode.cs</DependentUpon>
     </Compile>
+    <Compile Include="contact_ass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contact_ass.Designer.cs">
+      <DependentUpon>contact_ass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete.Designer.cs">
+      <DependentUpon>delete.cs</DependentUpon>
+    </Compile>
     <Compile Include="Favourite.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +88,18 @@
     </Compile>
     <Compile Include="Foque.Designer.cs">
       <DependentUpon>Foque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="help.Designer.cs">
+      <DependentUpon>help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login1.Designer.cs">
+      <DependentUpon>login1.cs</DependentUpon>
     </Compile>
     <Compile Include="mail.cs">
       <SubType>Form</SubType>
@@ -97,11 +121,23 @@
     <Compile Include="guns.Designer.cs">
       <DependentUpon>guns.cs</DependentUpon>
     </Compile>
+    <Compile Include="registr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registr.Designer.cs">
+      <DependentUpon>registr.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Add.resx">
       <DependentUpon>Add.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AppCode.resx">
       <DependentUpon>AppCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contact_ass.resx">
+      <DependentUpon>contact_ass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete.resx">
+      <DependentUpon>delete.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Favourite.resx">
       <DependentUpon>Favourite.cs</DependentUpon>
@@ -111,6 +147,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Foque.resx">
       <DependentUpon>Foque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="help.resx">
+      <DependentUpon>help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login1.resx">
+      <DependentUpon>login1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mail.resx">
       <DependentUpon>mail.cs</DependentUpon>
@@ -125,6 +167,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="guns.resx">
       <DependentUpon>guns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registr.resx">
+      <DependentUpon>registr.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

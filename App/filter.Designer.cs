@@ -226,7 +226,7 @@
             this.Controls.Add(this.filtr);
             this.Name = "filter";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "filter";
+            this.Text = "Фильтр";
             this.Load += new System.EventHandler(this.filter_Load);
             ((System.ComponentModel.ISupportInitialize)(this.p2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p1)).EndInit();

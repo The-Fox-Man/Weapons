@@ -40,7 +40,7 @@ namespace App
             this.ClientSize = new System.Drawing.Size(984, 711);
             this.Name = "pistols";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "pistols";
+            this.Text = "Пистолеты";
             this.Load += new System.EventHandler(this.pistols_Load);
             this.ResumeLayout(false);
 

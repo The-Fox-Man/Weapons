@@ -54,7 +54,7 @@ namespace App
             this.Controls.Add(this.lal);
             this.Name = "Favourite";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Favourite";
+            this.Text = "Избранное";
             this.Load += new System.EventHandler(this.Favourite_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

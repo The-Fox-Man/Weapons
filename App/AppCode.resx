@@ -120,6 +120,11 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Здравствуйте, в дтой прекраснейшиой программе вы сможете найти себе дев... автомат. Да. По очень выгодной цене, с быстрой доставкой и хорошим продавцом. При выборе вы можете увидеть все характерстики автомата.</value>
   </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Здравствуйте, в этой прекраснейшей программе вы сможете просмотреть информацию об автоматах. 
+Да. Вы можете увидеть все характерстики оружия, а также приобрести его за среднестатистическую цену на рынке.
+</value>
+  </data>
   <metadata name="menu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>62, 17</value>
   </metadata>

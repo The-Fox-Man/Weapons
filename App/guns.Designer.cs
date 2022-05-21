@@ -102,7 +102,7 @@
             this.Controls.Add(this.pic);
             this.Name = "guns";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "sus";
+            this.Text = "Поподробнее об оружии";
             ((System.ComponentModel.ISupportInitialize)(this.pic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

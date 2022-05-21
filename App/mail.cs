@@ -17,8 +17,9 @@ namespace App
         public mail()
         {
             InitializeComponent();
+            textBox1.Text = login1.gmail;
         }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             MailAddress fromMailAddress = new MailAddress("testoffyuo@gmail.com", "Weapons");
@@ -30,13 +31,17 @@ namespace App
                 msg.Body = "hello my nigg " + Environment.NewLine;
                 msg.IsBodyHtml = true; //artem.lisenkoff@gmail.com
 
-                System.IO.File.WriteAllText("yes.csv", "Название,Цена");
+                System.IO.File.WriteAllText("yes.csv", "Название, Цена, Количество, Стоимость всего оружия");
 
                 foreach (KeyValuePair<Guns, int> selected_guns in Favourite.selectedGuns)
                 {
                     Guns gun = selected_guns.Key;
-                    System.IO.File.AppendAllText("yes.csv", Environment.NewLine + gun.name + "," + gun.price);
+                    System.IO.File.AppendAllText("yes.csv", Environment.NewLine + gun.name + ","
+                                                 + gun.price + "," + selected_guns.Value + ","
+                                                 + selected_guns.Value * gun.price);
                 }
+
+                System.IO.File.AppendAllText("yes.csv", Environment.NewLine + "Цена вашей корзины : " + Favourite.finalprs);
 
                 msg.Attachments.Add(new Attachment("yes.csv"));
 
@@ -50,6 +55,17 @@ namespace App
                 smtpClient.Send(msg);
                 
             }
+            Close();
+        }
+
+        private void mail_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

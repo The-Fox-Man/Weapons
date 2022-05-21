@@ -28,6 +28,7 @@ namespace App
       
             a = 0;
         }
+       // label3.Text = login1.log;
         private void button1_Click(object sender, EventArgs e)
         {
             pistols g = new pistols();
@@ -86,7 +87,11 @@ namespace App
                 filter.gun_list.Add(gune);
                 Foque.gun_list.Add(gune);
                 pistols.gun_list.Add(gune);
-
+                //ex: тоже самое ^ 
+                //if(string examp == quarter[0])
+                //{получается всё это скан на входе а не регистр; поэтому всё тоже самое что ниже
+                // on regitr: str + "," + parol + ", " и т.д}
+                
             }
 
             /*filter.gun_list[0] = new Guns("INSAS", 7, "1987", "Автомат", vhere ssilka na site);
@@ -115,10 +120,7 @@ namespace App
              
         }
 
-        private void button7_Click(object sender, EventArgs e)
-        {
-            
-        }
+
 
         private void but_Click(object sender, EventArgs e)
         {
@@ -126,6 +128,52 @@ namespace App
             susss.ShowDialog();
         }
 
+        private void feed_Click(object sender, EventArgs e)
+        {
+            contact_ass s = new contact_ass();
+            s.ShowDialog();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if (login1.login == "")
+            {
+                login1 d = new login1();
+                d.ShowDialog();   
+            }
+            else
+            {
+                login1.login = "";
+                login1.sur = "";
+                login1.post = "";
+                
+            }
+            if(login1.login == "")
+            {
+                button8.Text = "Войти";
+                labal.Text = "Вы не вошли.";
+            }
+            else { button8.Text = "Выйти"; labal.Text = login1.login + " " +  login1.sur; }
+
+        }
+        private void button7_Click(object sender, EventArgs e)
+        {
+            delete s = new delete();
+            s.ShowDialog();
+            AppCode_Load(sender, e);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            registr k = new registr();
+            k.ShowDialog();
+        }
+
+        private void b_Click(object sender, EventArgs e)
+        {
+            help h = new help();
+            h.ShowDialog();
+        }
 
         //      
 
