@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Media;
 
 namespace App
 {
@@ -134,28 +135,6 @@ namespace App
             s.ShowDialog();
         }
 
-        private void button8_Click(object sender, EventArgs e)
-        {
-            if (login1.login == "")
-            {
-                login1 d = new login1();
-                d.ShowDialog();   
-            }
-            else
-            {
-                login1.login = "";
-                login1.sur = "";
-                login1.post = "";
-                
-            }
-            if(login1.login == "")
-            {
-                button8.Text = "Войти";
-                labal.Text = "Вы не вошли.";
-            }
-            else { button8.Text = "Выйти"; labal.Text = login1.login + " " +  login1.sur; }
-
-        }
         private void button7_Click(object sender, EventArgs e)
         {
             delete s = new delete();
@@ -163,16 +142,42 @@ namespace App
             AppCode_Load(sender, e);
         }
 
-        private void button9_Click(object sender, EventArgs e)
-        {
-            registr k = new registr();
-            k.ShowDialog();
-        }
-
         private void b_Click(object sender, EventArgs e)
         {
             help h = new help();
             h.ShowDialog();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            SoundPlayer s = new SoundPlayer("../../../Sounds/s1.wav");
+            s.Play();
+            if (login1.login == "")
+            {
+                login1 d = new login1();
+                d.ShowDialog();
+            }
+            else
+            {
+                login1.login = "";
+                login1.sur = "";
+                login1.post = "";
+
+            }
+            if (login1.login == "")
+            {
+                pictureBox3.Load("../../../images/bullet1.png");
+                labal.Text = "Вы не вошли.";
+            }
+            else { pictureBox3.Load("../../../images/bullet3.png"); labal.Text = login1.login + " " + login1.sur; }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            SoundPlayer s = new SoundPlayer("../../../Sounds/s1.wav");
+            s.Play();
+            registr k = new registr();
+            k.ShowDialog();
         }
 
         //      

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(guns));
             this.txt = new System.Windows.Forms.RichTextBox();
             this.txt1 = new System.Windows.Forms.TextBox();
             this.pic = new System.Windows.Forms.PictureBox();
@@ -81,11 +82,11 @@
             this.button1.BackgroundImage = global::App.Properties.Resources.bg;
             this.button1.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button1.Location = new System.Drawing.Point(864, 12);
+            this.button1.Location = new System.Drawing.Point(789, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 49);
+            this.button1.Size = new System.Drawing.Size(183, 49);
             this.button1.TabIndex = 5;
-            this.button1.Text = "Favourite";
+            this.button1.Text = "Добавить в \"Избранное\"";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -100,6 +101,9 @@
             this.Controls.Add(this.txt1);
             this.Controls.Add(this.txt);
             this.Controls.Add(this.pic);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1000, 750);
+            this.MinimumSize = new System.Drawing.Size(1000, 750);
             this.Name = "guns";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Поподробнее об оружии";

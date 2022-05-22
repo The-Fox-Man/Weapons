@@ -29,6 +29,7 @@ namespace App
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(registr));
             this.NameU = new System.Windows.Forms.TextBox();
             this.gmail = new System.Windows.Forms.TextBox();
             this.pswrd = new System.Windows.Forms.TextBox();
@@ -155,6 +156,9 @@ namespace App
             this.Controls.Add(this.pswrd);
             this.Controls.Add(this.gmail);
             this.Controls.Add(this.NameU);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(410, 369);
+            this.MinimumSize = new System.Drawing.Size(410, 369);
             this.Name = "registr";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Регистрация";

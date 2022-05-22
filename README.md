@@ -1,2 +1,2 @@
 # Weapons
-## POWER OF C#!
+yes

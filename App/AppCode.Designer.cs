@@ -37,17 +37,14 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button6 = new System.Windows.Forms.Button();
             this.новоеОружиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.button7 = new System.Windows.Forms.Button();
             this.but = new System.Windows.Forms.Button();
             this.feed = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.labal = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.button10 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -55,7 +52,13 @@
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.b = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.menu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
@@ -78,11 +81,11 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(668, 657);
+            this.label1.Location = new System.Drawing.Point(12, 660);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(307, 18);
+            this.label1.Size = new System.Drawing.Size(292, 18);
             this.label1.TabIndex = 3;
-            this.label1.Text = "All rights are reserved \"Weapons Geek\" 2022.";
+            this.label1.Text = "All rights reserved \"Weapons market\" 2022.";
             // 
             // label2
             // 
@@ -151,18 +154,6 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.richTextBox1.Location = new System.Drawing.Point(567, 481);
-            this.richTextBox1.MaxLength = 1000;
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(404, 150);
-            this.richTextBox1.TabIndex = 8;
-            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
-            // 
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold);
@@ -228,16 +219,6 @@
             this.feed.UseVisualStyleBackColor = true;
             this.feed.Click += new System.EventHandler(this.feed_Click);
             // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(222, 50);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(78, 35);
-            this.button8.TabIndex = 14;
-            this.button8.Text = "Войти";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
             // labal
             // 
             this.labal.AutoSize = true;
@@ -254,23 +235,13 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(306, 51);
+            this.label3.Location = new System.Drawing.Point(400, 78);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 31);
+            this.label3.Size = new System.Drawing.Size(39, 20);
             this.label3.TabIndex = 16;
             this.label3.Text = "или";
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(370, 51);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(136, 35);
-            this.button9.TabIndex = 17;
-            this.button9.Text = "Зарегистрироваться";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // label4
             // 
@@ -349,6 +320,43 @@
             this.b.UseVisualStyleBackColor = true;
             this.b.Click += new System.EventHandler(this.b_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = global::App.Properties.Resources.logo;
+            this.pictureBox1.InitialImage = global::App.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(376, 375);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(715, 324);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::App.Properties.Resources.bullet21;
+            this.pictureBox2.Location = new System.Drawing.Point(412, 5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(201, 156);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 21;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::App.Properties.Resources.bullet11;
+            this.pictureBox3.Location = new System.Drawing.Point(206, 5);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(201, 156);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 22;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
             // AppCode
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -357,21 +365,21 @@
             this.BackgroundImage = global::App.Properties.Resources.bground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 711);
+            this.Controls.Add(this.labal);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.labal);
-            this.Controls.Add(this.button8);
             this.Controls.Add(this.feed);
             this.Controls.Add(this.but);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.b);
@@ -380,11 +388,17 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(1000, 750);
+            this.MinimumSize = new System.Drawing.Size(1000, 750);
             this.Name = "AppCode";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Майн Меню";
             this.Load += new System.EventHandler(this.AppCode_Load);
             this.menu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -398,17 +412,14 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.ToolStripMenuItem новоеОружиеToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip menu;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button but;
         private System.Windows.Forms.Button feed;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Label labal;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Label label5;
@@ -416,6 +427,9 @@
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button b;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 

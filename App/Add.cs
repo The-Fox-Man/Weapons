@@ -20,22 +20,31 @@ namespace App
       
         private void save_Click(object sender, EventArgs e)
         {
-            if (fileName != "" && name.Text != "" && calibr.Text != "" && yearB.Text != "" &&
-                var.Text != "" && prsvar.Text != "" && describe.Text != "" && pi != null)
-            {
-            File.AppendAllText("base_of_stuff.txt", Environment.NewLine 
-                + name.Text + ", " 
-                + calibr.Text + ", "
-                + yearB.Text + ", " 
-                + var.Text + ", "
-                + prsvar.Text);
+
+                if (fileName != "" && name.Text != "" && calibr.Text != "" && yearB.Text != "" &&
+                var.Text != "" && prsvar.Text != "" && describe.Text != "" && pi != null  )
+                {
+                File.Delete("base_of_stuff.txt");
+                for (int i = 0; i < filter.gun_list.Count; i++)
+                    {
+                    File.AppendAllText("base_of_stuff.txt", filter.gun_list[i].name + ", " +
+                    filter.gun_list[i].cal + ", " + filter.gun_list[i].year + ", " + filter.gun_list[i].kind + ", "
+                    + filter.gun_list[i].price + Environment.NewLine);
+                    }
+                    File.AppendAllText("base_of_stuff.txt", 
+                            name.Text + ", "
+                            + calibr.Text + ", "
+                            + yearB.Text + ", "
+                            + var.Text + ", "
+                            + prsvar.Text);
+
+                        File.Copy(fileName, "../../../images/" + name.Text + ".jpg");
+                        File.AppendAllText("../../../Text/" + name.Text + ".txt", describe.Text);
+                        MessageBox.Show("Ваше оружие успешно добавлено.");
+                        Close();
+                }
+                else { MessageBox.Show("Заполните все поля и вложите изображение! Не будте глупым.", "Программа"); }
             
-                File.Copy(fileName, "../../../images/" + name.Text + ".jpg");
-                File.AppendAllText("../../../Text/" + name.Text + ".txt", describe.Text);
-                MessageBox.Show("Ваше оружие успешно добавлено.");
-            }
-            else { MessageBox.Show("Заполните все поля и вложите изображение! Не будте глупым.", "Программа"); }
-         
         }
  
         string fileName = "";

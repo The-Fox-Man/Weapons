@@ -33,19 +33,21 @@ namespace App
         private void button1_Click(object sender, EventArgs e)//delete
         {
             System.IO.File.Delete("base_of_stuff.txt");
-            for(int i = 0; i < filter.gun_list.Count; i++)
+            
+            for (int i = 0; i < filter.gun_list.Count; i++)
             {
                 if (textBox1.Text == filter.gun_list[i].name)
                 {
-
+                    System.IO.File.Delete("../../../images/ " + textBox1.Text + ".jpg");//fixxxxxxxxxxxxxxxxxxxxxxxxxxx!!!!!!!!!!!!!!!!!!!
+                    System.IO.File.Delete("../../../Text/ " + textBox1.Text + ".txt");
                 }
                 else {
-                    System.IO.File.AppendAllText("base_of_stuff.txt", filter.gun_list[i].name + ", " +
+                    System.IO.File.AppendAllText("base_of_stuff.txt",  filter.gun_list[i].name + ", " +
                     filter.gun_list[i].cal + ", " + filter.gun_list[i].year + ", " + filter.gun_list[i].kind + ", "
                     + filter.gun_list[i].price + Environment.NewLine);
                 }
             }
-            MessageBox.Show("gg");
+            MessageBox.Show("Ваше оружие успешно удалено!", "Программа");
             Close();
         }
 

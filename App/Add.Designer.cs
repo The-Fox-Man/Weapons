@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Add));
             this.save = new System.Windows.Forms.Button();
             this.name = new System.Windows.Forms.TextBox();
             this.yearB = new System.Windows.Forms.TextBox();
@@ -233,7 +234,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::App.Properties.Resources.bground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(431, 450);
+            this.ClientSize = new System.Drawing.Size(421, 451);
             this.Controls.Add(this.describe);
             this.Controls.Add(this.calibr);
             this.Controls.Add(this.pi);
@@ -249,6 +250,9 @@
             this.Controls.Add(this.yearB);
             this.Controls.Add(this.name);
             this.Controls.Add(this.save);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(437, 490);
+            this.MinimumSize = new System.Drawing.Size(437, 490);
             this.Name = "Add";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Добавить оружие";
