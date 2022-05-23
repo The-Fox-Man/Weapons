@@ -40,6 +40,8 @@ namespace App
             this.surname = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.back = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.back)).BeginInit();
             this.SuspendLayout();
             // 
             // NameU
@@ -139,6 +141,18 @@ namespace App
             this.label5.TabIndex = 9;
             this.label5.Text = "Регистрация";
             // 
+            // back
+            // 
+            this.back.BackColor = System.Drawing.Color.Transparent;
+            this.back.Image = global::App.Properties.Resources.back;
+            this.back.Location = new System.Drawing.Point(333, 12);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(49, 47);
+            this.back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.back.TabIndex = 12;
+            this.back.TabStop = false;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // registr
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -146,6 +160,7 @@ namespace App
             this.BackgroundImage = global::App.Properties.Resources.bground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(394, 330);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.surname);
@@ -163,6 +178,7 @@ namespace App
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Регистрация";
             this.Load += new System.EventHandler(this.registr_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -180,5 +196,6 @@ namespace App
         private System.Windows.Forms.TextBox surname;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox back;
     }
 }

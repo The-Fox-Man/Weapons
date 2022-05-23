@@ -45,7 +45,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.var = new System.Windows.Forms.ComboBox();
+            this.back = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.back)).BeginInit();
             this.SuspendLayout();
             // 
             // save
@@ -63,14 +65,14 @@
             // 
             // name
             // 
-            this.name.Location = new System.Drawing.Point(110, 33);
+            this.name.Location = new System.Drawing.Point(110, 44);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(100, 20);
             this.name.TabIndex = 1;
             // 
             // yearB
             // 
-            this.yearB.Location = new System.Drawing.Point(110, 104);
+            this.yearB.Location = new System.Drawing.Point(110, 115);
             this.yearB.Name = "yearB";
             this.yearB.Size = new System.Drawing.Size(98, 20);
             this.yearB.TabIndex = 3;
@@ -81,7 +83,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(14, 36);
+            this.label1.Location = new System.Drawing.Point(14, 47);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 17);
             this.label1.TabIndex = 5;
@@ -93,7 +95,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(14, 71);
+            this.label2.Location = new System.Drawing.Point(14, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 17);
             this.label2.TabIndex = 5;
@@ -105,7 +107,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(14, 107);
+            this.label3.Location = new System.Drawing.Point(14, 118);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(94, 17);
             this.label3.TabIndex = 5;
@@ -117,7 +119,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(15, 143);
+            this.label4.Location = new System.Drawing.Point(15, 154);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(37, 17);
             this.label4.TabIndex = 5;
@@ -135,7 +137,7 @@
             "60000",
             "70000",
             "80000"});
-            this.prsvar.Location = new System.Drawing.Point(110, 182);
+            this.prsvar.Location = new System.Drawing.Point(110, 193);
             this.prsvar.Name = "prsvar";
             this.prsvar.Size = new System.Drawing.Size(98, 21);
             this.prsvar.TabIndex = 6;
@@ -146,7 +148,7 @@
             this.img.BackgroundImage = global::App.Properties.Resources.bg;
             this.img.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold);
             this.img.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.img.Location = new System.Drawing.Point(232, 28);
+            this.img.Location = new System.Drawing.Point(232, 70);
             this.img.Name = "img";
             this.img.Size = new System.Drawing.Size(165, 44);
             this.img.TabIndex = 7;
@@ -158,7 +160,7 @@
             // 
             this.pi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pi.InitialImage = null;
-            this.pi.Location = new System.Drawing.Point(232, 78);
+            this.pi.Location = new System.Drawing.Point(232, 120);
             this.pi.Name = "pi";
             this.pi.Size = new System.Drawing.Size(165, 93);
             this.pi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -176,14 +178,14 @@
             this.calibr.Items.AddRange(new object[] {
             "5",
             "7"});
-            this.calibr.Location = new System.Drawing.Point(110, 68);
+            this.calibr.Location = new System.Drawing.Point(110, 79);
             this.calibr.Name = "calibr";
             this.calibr.Size = new System.Drawing.Size(100, 21);
             this.calibr.TabIndex = 9;
             // 
             // describe
             // 
-            this.describe.Location = new System.Drawing.Point(111, 224);
+            this.describe.Location = new System.Drawing.Point(111, 234);
             this.describe.Name = "describe";
             this.describe.Size = new System.Drawing.Size(286, 96);
             this.describe.TabIndex = 10;
@@ -196,7 +198,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(18, 255);
+            this.label5.Location = new System.Drawing.Point(18, 265);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label5.Size = new System.Drawing.Size(78, 17);
@@ -209,7 +211,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Location = new System.Drawing.Point(15, 183);
+            this.label6.Location = new System.Drawing.Point(15, 194);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 17);
             this.label6.TabIndex = 5;
@@ -223,10 +225,22 @@
             this.var.Items.AddRange(new object[] {
             "Автомат",
             "Пистолет"});
-            this.var.Location = new System.Drawing.Point(110, 143);
+            this.var.Location = new System.Drawing.Point(110, 154);
             this.var.Name = "var";
             this.var.Size = new System.Drawing.Size(98, 21);
             this.var.TabIndex = 6;
+            // 
+            // back
+            // 
+            this.back.BackColor = System.Drawing.Color.Transparent;
+            this.back.Image = global::App.Properties.Resources.back;
+            this.back.Location = new System.Drawing.Point(364, 12);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(49, 47);
+            this.back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.back.TabIndex = 12;
+            this.back.TabStop = false;
+            this.back.Click += new System.EventHandler(this.back_Click);
             // 
             // Add
             // 
@@ -235,6 +249,7 @@
             this.BackgroundImage = global::App.Properties.Resources.bground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(421, 451);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.describe);
             this.Controls.Add(this.calibr);
             this.Controls.Add(this.pi);
@@ -257,6 +272,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Добавить оружие";
             ((System.ComponentModel.ISupportInitialize)(this.pi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -280,5 +296,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox var;
+        private System.Windows.Forms.PictureBox back;
     }
 }

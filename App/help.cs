@@ -16,5 +16,10 @@ namespace App
         {
             InitializeComponent();
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -20,6 +20,14 @@ namespace App
             Controls.Clear();
             int x = 0;
             int y = 30;
+            PictureBox back = new PictureBox();
+            back.Location = new Point(930, +5);
+            back.SizeMode = PictureBoxSizeMode.Zoom;
+            back.Load("../../../images/back.png");
+            back.Size = new Size(49, 47);
+            back.BackColor = Color.Transparent;
+            back.Click += new EventHandler(back_Click);
+            Controls.Add(back);
             for (int i = 0; i < gun_list.Count; i++)
             {
                 if (gun_list[i].kind == "Пистолет")
@@ -60,6 +68,11 @@ namespace App
         private void pistols_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

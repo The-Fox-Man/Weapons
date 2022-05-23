@@ -38,6 +38,14 @@ namespace App
             int x = 0;
             int y = 30;
             // foreach (Guns gun in selectedGuns)
+            PictureBox back = new PictureBox();
+            back.Location = new Point(940, +5);
+            back.SizeMode = PictureBoxSizeMode.Zoom;
+            back.Load("../../../images/back.png");
+            back.Size = new Size(49, 47);
+            back.BackColor = Color.Transparent;
+            back.Click += new EventHandler(back_Click);
+            Controls.Add(back);
             foreach (KeyValuePair<Guns, int> choose_gun in selectedGuns)
             {
                 Guns gun = choose_gun.Key;
@@ -261,6 +269,11 @@ namespace App
         private void Favourite_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

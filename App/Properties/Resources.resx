@@ -121,8 +121,14 @@
   <data name="scar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\scar1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bullet21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bullet21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ads" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ads.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bullet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bullet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="scar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\scar1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,9 +148,6 @@
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bullet11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bullet11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,8 +166,8 @@
   <data name="HK416" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HK416.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bullet21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bullet21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bullet11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bullet11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="INSAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\INSAS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,7 +178,7 @@
   <data name="ak47" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ak471.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bullet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bullet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

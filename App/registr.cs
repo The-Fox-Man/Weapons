@@ -29,5 +29,10 @@ namespace App
                                         + gmail.Text + ", " + pswrd.Text);
             Close();
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

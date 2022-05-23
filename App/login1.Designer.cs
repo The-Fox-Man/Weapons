@@ -35,6 +35,8 @@
             this.pswdBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.back = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.back)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -98,6 +100,18 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Вход";
             // 
+            // back
+            // 
+            this.back.BackColor = System.Drawing.Color.Transparent;
+            this.back.Image = global::App.Properties.Resources.back;
+            this.back.Location = new System.Drawing.Point(270, 7);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(49, 47);
+            this.back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.back.TabIndex = 12;
+            this.back.TabStop = false;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // login1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -105,6 +119,7 @@
             this.BackgroundImage = global::App.Properties.Resources.bground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(327, 238);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pswdBox);
@@ -117,6 +132,7 @@
             this.Name = "login1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Войти";
+            ((System.ComponentModel.ISupportInitialize)(this.back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -130,5 +146,6 @@
         private System.Windows.Forms.TextBox pswdBox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox back;
     }
 }

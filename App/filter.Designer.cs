@@ -43,9 +43,11 @@
             this.choiceYear = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.pan = new System.Windows.Forms.Panel();
+            this.back = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.p2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.p1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.p3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.back)).BeginInit();
             this.SuspendLayout();
             // 
             // label8
@@ -210,6 +212,18 @@
             this.pan.TabIndex = 28;
             this.pan.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // back
+            // 
+            this.back.BackColor = System.Drawing.Color.Transparent;
+            this.back.Image = global::App.Properties.Resources.back;
+            this.back.Location = new System.Drawing.Point(12, 652);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(49, 47);
+            this.back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.back.TabIndex = 29;
+            this.back.TabStop = false;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // filter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -217,6 +231,7 @@
             this.BackgroundImage = global::App.Properties.Resources.bground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 711);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.pan);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -235,6 +250,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.p2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.p3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -256,5 +272,6 @@
         private System.Windows.Forms.ComboBox choiceYear;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel pan;
+        private System.Windows.Forms.PictureBox back;
     }
 }

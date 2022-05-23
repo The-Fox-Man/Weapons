@@ -35,6 +35,8 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.back = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.back)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -108,6 +110,18 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Обратная связь";
             // 
+            // back
+            // 
+            this.back.BackColor = System.Drawing.Color.Transparent;
+            this.back.Image = global::App.Properties.Resources.back;
+            this.back.Location = new System.Drawing.Point(669, 12);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(49, 47);
+            this.back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.back.TabIndex = 12;
+            this.back.TabStop = false;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // contact_ass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -115,6 +129,7 @@
             this.BackgroundImage = global::App.Properties.Resources.bground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(741, 517);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.comboBox1);
@@ -128,6 +143,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Обратная связь";
             this.Load += new System.EventHandler(this.contact_ass_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -141,5 +157,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox back;
     }
 }

@@ -33,7 +33,9 @@
             this.txt1 = new System.Windows.Forms.TextBox();
             this.pic = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.back = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.back)).BeginInit();
             this.SuspendLayout();
             // 
             // txt
@@ -90,6 +92,18 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // back
+            // 
+            this.back.BackColor = System.Drawing.Color.Transparent;
+            this.back.Image = global::App.Properties.Resources.back;
+            this.back.Location = new System.Drawing.Point(12, 12);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(49, 47);
+            this.back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.back.TabIndex = 12;
+            this.back.TabStop = false;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // guns
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -97,6 +111,7 @@
             this.BackgroundImage = global::App.Properties.Resources.bground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 711);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txt1);
             this.Controls.Add(this.txt);
@@ -108,6 +123,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Поподробнее об оружии";
             ((System.ComponentModel.ISupportInitialize)(this.pic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -118,5 +134,6 @@
         private System.Windows.Forms.RichTextBox txt;
         private System.Windows.Forms.TextBox txt1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox back;
     }
 }

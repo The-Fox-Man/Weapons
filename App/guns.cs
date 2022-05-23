@@ -52,6 +52,11 @@ namespace App
                 Favourite.selectedGuns.Add(gun, 1);
         }
 
-      //  System.Diagnostics.Process.Start(guns.web); web добавить в структуру стринг и в массиве ссылку а также сделать кнопку "ссылка на веб сите" и на ёё клик в ней эту строкуЫ
+        private void back_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        //  System.Diagnostics.Process.Start(guns.web); web добавить в структуру стринг и в массиве ссылку а также сделать кнопку "ссылка на веб сите" и на ёё клик в ней эту строкуЫ
     }
 }
