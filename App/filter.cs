@@ -87,15 +87,16 @@ namespace App
             int y = 30;
             for (int i = 0; i < gun_list.Count; i++)
             {
-
                 gun_list[i].lbl.Visible = true;
                 gun_list[i].pic.Visible = true;
-                if (choice.Text != "" && choice.Text != "nothing"
-                    && gun_list[i].price != Convert.ToInt32(choice.Text))
-                {
-                     gun_list[i].lbl.Visible = false; 
-                     gun_list[i].pic.Visible = false;
-                }
+                if (!(gun_list[i].price >= Convert.ToInt32(tb1.Text) && gun_list[i].price <= Convert.ToInt32(tb2.Text)) 
+                    && tb2.Text != "0"
+                    || !(gun_list[i].price >= Convert.ToInt32(tb1.Text) && tb2.Text  == "0")
+                    && !(gun_list[i].price >= Convert.ToInt32(tb1.Text) && gun_list[i].price <= Convert.ToInt32(tb2.Text)))
+                    //(choice.Text != "" && choice.Text != "nothing"
+                    //&& gun_list[i].price != Convert.ToInt32(choice.Text))
+                    { gun_list[i].lbl.Visible = false; gun_list[i].pic.Visible = false; }
+
                 if (choiceCal.Text != "" && choiceCal.Text != "nothing" && gun_list[i].cal != (choiceCal.Text))
                 {
                     gun_list[i].lbl.Visible = false;

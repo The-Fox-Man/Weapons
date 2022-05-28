@@ -46,9 +46,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label1.Location = new System.Drawing.Point(12, 70);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 13);
+            this.label1.Size = new System.Drawing.Size(111, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Логин:";
+            this.label1.Text = "Логин или эл. почта:";
             // 
             // label2
             // 
@@ -74,6 +74,7 @@
             this.pswdBox.Name = "pswdBox";
             this.pswdBox.Size = new System.Drawing.Size(303, 20);
             this.pswdBox.TabIndex = 3;
+            this.pswdBox.UseSystemPasswordChar = true;
             // 
             // button1
             // 

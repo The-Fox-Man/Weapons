@@ -36,7 +36,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.prsvar = new System.Windows.Forms.ComboBox();
             this.img = new System.Windows.Forms.Button();
             this.pi = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
@@ -46,6 +45,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.var = new System.Windows.Forms.ComboBox();
             this.back = new System.Windows.Forms.PictureBox();
+            this.prsvar = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.back)).BeginInit();
             this.SuspendLayout();
@@ -125,24 +125,6 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Тип:";
             // 
-            // prsvar
-            // 
-            this.prsvar.FormattingEnabled = true;
-            this.prsvar.Items.AddRange(new object[] {
-            "10000",
-            "20000",
-            "30000",
-            "40000",
-            "50000",
-            "60000",
-            "70000",
-            "80000"});
-            this.prsvar.Location = new System.Drawing.Point(110, 193);
-            this.prsvar.Name = "prsvar";
-            this.prsvar.Size = new System.Drawing.Size(98, 21);
-            this.prsvar.TabIndex = 6;
-            this.prsvar.SelectedIndexChanged += new System.EventHandler(this.prsvar_SelectedIndexChanged);
-            // 
             // img
             // 
             this.img.BackgroundImage = global::App.Properties.Resources.bg;
@@ -176,8 +158,11 @@
             // 
             this.calibr.FormattingEnabled = true;
             this.calibr.Items.AddRange(new object[] {
-            "5",
-            "7"});
+            "5.56",
+            "7.62",
+            "5.45",
+            "9",
+            "0.45"});
             this.calibr.Location = new System.Drawing.Point(110, 79);
             this.calibr.Name = "calibr";
             this.calibr.Size = new System.Drawing.Size(100, 21);
@@ -242,6 +227,14 @@
             this.back.TabStop = false;
             this.back.Click += new System.EventHandler(this.back_Click);
             // 
+            // prsvar
+            // 
+            this.prsvar.Location = new System.Drawing.Point(110, 192);
+            this.prsvar.Name = "prsvar";
+            this.prsvar.Size = new System.Drawing.Size(98, 20);
+            this.prsvar.TabIndex = 13;
+            this.prsvar.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // Add
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -249,13 +242,13 @@
             this.BackgroundImage = global::App.Properties.Resources.bground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(421, 451);
+            this.Controls.Add(this.prsvar);
             this.Controls.Add(this.back);
             this.Controls.Add(this.describe);
             this.Controls.Add(this.calibr);
             this.Controls.Add(this.pi);
             this.Controls.Add(this.img);
             this.Controls.Add(this.var);
-            this.Controls.Add(this.prsvar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
@@ -271,6 +264,7 @@
             this.Name = "Add";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Добавить оружие";
+            this.Load += new System.EventHandler(this.Add_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.back)).EndInit();
             this.ResumeLayout(false);
@@ -287,7 +281,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox prsvar;
         private System.Windows.Forms.Button img;
         private System.Windows.Forms.PictureBox pi;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
@@ -297,5 +290,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox var;
         private System.Windows.Forms.PictureBox back;
+        private System.Windows.Forms.TextBox prsvar;
     }
 }

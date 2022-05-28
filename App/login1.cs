@@ -39,7 +39,7 @@ namespace App
                 gmail = word[2];
                 psd = word[3];
 
-                if(log.Text == nameUS && pswdBox.Text == psd)
+                if(log.Text == nameUS && pswdBox.Text == psd || log.Text == gmail && pswdBox.Text == psd)
                 {
                     login = nameUS;
                     sur = surnm;

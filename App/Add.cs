@@ -82,5 +82,15 @@ namespace App
         {
             Close();
         }
+
+        private void Add_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

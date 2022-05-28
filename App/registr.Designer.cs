@@ -64,6 +64,7 @@ namespace App
             this.pswrd.Name = "pswrd";
             this.pswrd.Size = new System.Drawing.Size(255, 20);
             this.pswrd.TabIndex = 2;
+            this.pswrd.UseSystemPasswordChar = true;
             // 
             // label1
             // 

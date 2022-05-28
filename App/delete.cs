@@ -38,8 +38,8 @@ namespace App
             {
                 if (textBox1.Text == filter.gun_list[i].name)
                 {
-                    System.IO.File.Delete("../../../images/ " + textBox1.Text + ".jpg");//fixxxxxxxxxxxxxxxxxxxxxxxxxxx!!!!!!!!!!!!!!!!!!!
-                    System.IO.File.Delete("../../../Text/ " + textBox1.Text + ".txt");
+                  // System.IO.File.Delete("../../../images/" + textBox1.Text + ".jpg");//fixxxxxxxxxxxxxxxxxxxxxxxxxxx!!!!!!!!!!!!!!!!!!!
+                  // System.IO.File.Delete("../../../Text/" + textBox1.Text + ".txt");
                 }
                 else {
                     System.IO.File.AppendAllText("base_of_stuff.txt",  filter.gun_list[i].name + ", " +

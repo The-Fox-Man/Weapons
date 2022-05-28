@@ -97,3 +97,28 @@ D:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.delete.resources
 D:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.login1.resources
 D:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.registr.resources
 D:\ПРОГРАММЫ  C++ и C#\Catalog\App\obj\Debug\App.help.resources
+C:\Users\user\Desktop\Catalog\App\obj\Debug\App.help.resources
+C:\Users\user\Desktop\Catalog\App\obj\Debug\App.registr.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\bin\Debug\App.exe.config
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\bin\Debug\App.exe
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\bin\Debug\App.pdb
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.Add.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.AppCode.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.contact_ass.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.delete.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.Favourite.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.filter.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.Foque.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.help.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.login1.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.mail.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.pistols.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.Properties.Resources.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.guns.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.registr.resources
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.exe
+C:\Users\user\Desktop\Рабочий стол\Catalog\App\obj\Debug\App.pdb
